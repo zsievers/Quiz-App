@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Who did God tell to build an Ark?",
+        "choice1": "Noah",
+        "choice2": "Adam",
+        "choice3": "Ruth",
+        "choice4": "Jesus",
+        "answer": 1
+    },
+    {
+        "question": "How did David defeat Goliath?",
+        "choice1": "Praying",
+        "choice2": "Sword",
+        "choice3": "Stone and a Sling",
+        "choice4": "He didn't",
+        "answer": 3
+    },
+    {
+        "question": "What did God say when he created light?",
+        "choice1": "Illuminate Thee!",
+        "choice2": "Let there be light",
+        "choice3": "Thine lighteth turneth on",
+        "choice4": "Let there be sun",
+        "answer": 2
+    }
+]
