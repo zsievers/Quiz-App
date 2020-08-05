@@ -24,9 +24,9 @@
 This was a fun challenge. All in the CSS file, I used the CSS to style the 
 loader and the @keyframe & animation tags to make the loader spin.
 
-    ```
+```
       animation: spin 2s linear infinite;
-    ```
+```
 I created a border then add animation linear infine so that it makes a loop every 2 seconds.
 
 ```
