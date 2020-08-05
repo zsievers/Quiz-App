@@ -14,10 +14,13 @@
 <li>you splice any of the extra scores after top 5 .splice(5)</li>
 <li>then update the localStorage</li>
 
-<li>CSS</li>
-<li></li>
-<li></li>
-<li></li>
+## CSS
+I chose not to use Bootstrap for this project and focus more attention to CSS3. Some of my functions might have taken longer than I would have liked, but I learned how to create a progress bar with Javascript and CSS. 
+
+<i>I created progressBarFull inside the progressBar parent div. By taking the questionCounter dividing by the MAX_QUESTIONS and multiplying it by 100, I am able to dynamically change the width of the progressBarFull. This is cool, because as I add more and more questions, I don't have to adjust the bar as I would if I had just hard coded the progress bar. </i>
+```
+progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+```
 
 ## Spinning Loader
    
@@ -25,10 +28,9 @@ This was a fun challenge. All in the CSS file, I used the CSS to style the
 loader and the @keyframe & animation tags to make the loader spin.
 
 ```
-      animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
 ```
-I created a border then add animation linear infine so that it makes a loop every 2 seconds.
-
+- I created a border then add animation linear infine so that it makes a loop every 2 seconds. Using the @keyframe spin tag allows you take control how full of a rotation it can make.
 ```
 @keyframes spin {
     0% {
@@ -39,6 +41,3 @@ I created a border then add animation linear infine so that it makes a loop ever
     }
 }
 ```
-
-Starting at 0% -> transform roatate (0deg) and end 100% -> transform rotate(360deg)
-then in loader id use animation spin for 2seconds 
