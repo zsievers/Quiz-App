@@ -20,18 +20,14 @@
 <li></li>
 
 ## Spinning Loader
+   
+This was a fun challenge. All in the CSS file, I used the CSS to style the 
+loader and the @keyframe & animation tags to make the loader spin.
 
-<li>
-
-    This was a fun challenge. All in the CSS file, I used the CSS to style the loader and the @keyframe & animation tags to make the loader spin.
-
-    
     ```
       animation: spin 2s linear infinite;
     ```
-</li>
-<li>I created a border then add animation linear infine so that it makes a loop every 2 seconds</li>
-<li>
+I created a border then add animation linear infine so that it makes a loop every 2 seconds.
 
 ```
 @keyframes spin {
@@ -43,7 +39,6 @@
     }
 }
 ```
-</li>
-<li>start 0% -> transform roatate (0deg)</li>
-<li>end 100% -> transform rotate(360deg</li>
-<li>then in loader id use animation spin for 2seconds </li>
+
+Starting at 0% -> transform roatate (0deg) and end 100% -> transform rotate(360deg)
+then in loader id use animation spin for 2seconds 
