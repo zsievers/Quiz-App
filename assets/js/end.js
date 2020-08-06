@@ -22,7 +22,7 @@ saveHighScore = (e) => {
   };
   highScores.push(score);
 
-  // sorting scores to make a highscore list
+  // sorting scores in ascending order 
   highScores.sort((a, b) => b.score - a.score);
 
   // splicing at 5th index - cutting off highscores after 5
