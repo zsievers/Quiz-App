@@ -2,6 +2,32 @@
 
 
 # Take Aways
+
+## Creat a Top 5 Scores in local storage 
+<i>Add, sort, splice</i>
+<i><b>ADD</b>: Inside of the saveHighScore function, create a score object and push the new score to the highScores array.</i>
+```
+const score = {
+    score: mostRecentScore,
+    name: username.value
+};
+highScores.push(score);
+}
+```
+<i><b>SORT</b>: Passing the arrow function (a, b) => b - a tells .sort() to sort in ascending order. </i>
+```
+.sort((a,b) => b.score - a.score);
+```
+<i><b>SPLICE</b>: Splicing at the 5th index cuts off all other scores after the 5th number.</i>
+```
+highScores.splice(5);
+```
+<i>Update the localStorage</i>
+```
+localStorage.setItem("highscores", JSON.stringify(highScores));
+```
+
+
 <li>Saving High Scores into local storage:</li>
 <li>Local storage only uses key value pairs with value being a string. </li>
 <li>You can work with arrays but you have to convert them into a JSON string using JSON.stringify([])</li>
