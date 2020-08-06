@@ -4,8 +4,11 @@
 # Take Aways
 
 ## Creat a Top 5 Scores in local storage 
-<i>Add, sort, splice</i>
-<i><b>ADD</b>: Inside of the saveHighScore function, create a score object and push the new score to the highScores array.</i>
+<h3><i>Push, Sort, Splice, Update</i></h3>
+
+<br>
+
+<i><b>PUSH</b>: Inside of the saveHighScore function, create a score object and push the new score to the highScores array.</i>
 ```
 const score = {
     score: mostRecentScore,
@@ -22,23 +25,10 @@ highScores.push(score);
 ```
 highScores.splice(5);
 ```
-<i>Update the localStorage</i>
+<i><b>UPDATE</b>: setItem takes in a keyName and a keyValue. Since localStorage only operates with strings, you have to use JSON.stringify to change the score to a string.</i>
 ```
 localStorage.setItem("highscores", JSON.stringify(highScores));
 ```
-
-
-<li>Saving High Scores into local storage:</li>
-<li>Local storage only uses key value pairs with value being a string. </li>
-<li>You can work with arrays but you have to convert them into a JSON string using JSON.stringify([])</li>
-<li>And to then make that into an actual array you can use JSON.parse.localStorage</li>
-
-
-<li>creating a top 5 scores algorithm:</li>
-<li>You add the score to the array .push(score)</li>
-<li>You sort it .sort((a,b) => b.scoer - a.score </li>
-<li>you splice any of the extra scores after top 5 .splice(5)</li>
-<li>then update the localStorage</li>
 
 ## CSS
 <i>I chose not to use Bootstrap for this project and focus more attention to CSS3. Some of my functions might have taken longer than I would have liked, but I learned how to create a progress bar with Javascript and CSS.</i>
