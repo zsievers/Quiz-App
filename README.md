@@ -1,7 +1,9 @@
 # Quiz-App
 Click <a href="https://zsievers.github.io/Quiz-App/">here</a> to play!
 
-<img src="./assets/images/screenshot.PNG" width="500" height="700">
+<img src="./assets/images/screenshot.PNG"  width="350" height="500">
+<img src="./assets/images/game.PNG"  width="350" height="500">
+<img src="./assets/images/highscore.PNG"  width="350" height="500">
 
 # Take Aways
 
