@@ -30,6 +30,6 @@ saveHighScore = (e) => {
 
   localStorage.setItem("highScores", JSON.stringify(highScores));
 
-  window.location.href = "/";
+  window.location.href = "/Quiz-App/";
   console.log(highScores);
 };
