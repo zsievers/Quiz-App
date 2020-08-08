@@ -66,7 +66,7 @@ getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
     // go to end page
-    return window.location.assign("/Quiz-App/end.html");
+    return window.location.href = "/Quiz-App/end.html";
   }
 
   questionCounter++;
