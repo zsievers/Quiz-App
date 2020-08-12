@@ -1,4 +1,4 @@
-# Quiz-App
+# Sports Trivia
 Click <a href="https://zsievers.github.io/Quiz-App/">here</a> to play!
 
 <img src="./assets/images/screenshot.PNG"  width="300" height="400"> <img src="./assets/images/game.PNG"  width="300" height="400"> <img src="./assets/images/highscore.PNG"  width="300" height="400">
